@@ -1,6 +1,4 @@
----
-title: R4.A.11 Développement pour applications mobiles
----
+# R4.A.11 Développement pour applications mobiles
 
 > **Objectif :** découvrir ***des techniques*** de développement mobile.
 {class=objectif}
@@ -36,10 +34,10 @@ TP : 21h : 18 + 3 (saé)
 
 ### Cours
 
-- [Applications natives](applications-natives)
-- [Compilation cross plateforme](xplatform)
-- [Applications hybrides](applications-hybrides)
-- [Progressive Web App](progressive-web-app)
+- [Applications natives](apps-natives)
+- [Compilation cross plateforme](apps-xplatform)
+- [Applications hybrides](apps-hybrides)
+- [Progressive Web App](apps-pwa)
 
 ### Travaux dirigés
 
