@@ -1,7 +1,7 @@
 # R4.A.11 Développement pour applications mobiles
 
+> [!NOTE]
 > **Objectif :** découvrir ***des techniques*** de développement mobile.
-{class=objectif}
 
 ## Programme national
 

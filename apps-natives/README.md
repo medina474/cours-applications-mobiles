@@ -1,7 +1,7 @@
 # Applications natives
 
+> [!NOTE]
 > **Objectif :** Concevoir une application pour une plateforme spécifique afin de bénéficier des **meilleures performances**.
-{class=objectif}
 
 Une application « **native** » est conçue avec les **outils de développement officiels** et spécifiques à l'appareil sur lequel elle sera installée.
 

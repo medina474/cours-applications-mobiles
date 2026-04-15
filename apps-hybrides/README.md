@@ -1,7 +1,7 @@
 # Applications hybrides
 
+> [!NOTE]
 > **Objectif :** Combiner l'avantage d'un développement web et la possibilité d'une application native.
-{class=objectif}
 
 Une application hybride est une application qui **embarque un navigateur web**. Toute la partie navigation (barre d'adresse, menu, retour arrière) est cachée à l'utilisateur. L'avantage est que l'application web ressemble trait pour trait à une application native. Ses capacités sont améliorées par rapport à une application web car les l'application hybride prennent en charge ce qui ne l'est pas habituellement par un navigateur (lecteur code barre, lecteur RFID, caméra, stockage, etc…)
 

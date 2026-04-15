@@ -1,8 +1,7 @@
 # Compilation cross plateforme
 
-> **Objectif :** Obtenir des performances natives en utilisant un langage différent du système mais commun à plusieurs
-plateformes permettant d'écrire le programme une seule fois
-{class=objectif}
+> [!NOTE]
+> **Objectif :** Obtenir des performances natives en utilisant un langage différent du système mais commun à plusieurs plateformes permettant d'écrire le programme une seule fois
 
 La compilation cross plateforme utilise un langage autre que celui préconisé par défaut par le constructeur de l'appareil. Cela permet d'utiliser un langage déjà connu d'un développeur et de l'utiliser sur plusieurs plateformes.
 
