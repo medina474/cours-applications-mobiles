@@ -13,7 +13,7 @@
 ### Compétences ciblées :
 
 - **Développer** : c’est-à-dire concevoir, coder, tester et intégrer — une solution informatique pour un client.
-- Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision, consommation de ressources..
+- Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision, consommation de ressources...
 - Concevoir, gérer, administrer et exploiter les données de l’entreprise et mettre à disposition toutes les informations pour un bon pilotage de l’entreprise
 - Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles
 
@@ -27,8 +27,8 @@ Programmation mobile, PWA, SPA
 
 ### Volumes horaires
 
-TD : 8h : 6 + 2 (saé)
-TP : 21h : 18 + 3 (saé)
+TD : 8h : 6h + 2h (saé)
+TP : 21h : 18h + 3h (saé)
 
 ## Sommaire
 
@@ -59,23 +59,65 @@ TP : 21h : 18 + 3 (saé)
 
 date|sujet
 ---|---
-samedi 03/05|[cours](#cours) ; installation de Flutter ; presentation de [Dart](/dart) jusqu'à Classes
-mercredi 07/05|Programmation asynchrone ; présentation de Flutter ; Widget [stateless/statefull](state) ; introduction aux ListView
-mercredi 14/05|[Travaux pratiques 1/4](tp)
-samedi 17/05|[Travaux pratiques 2/4](tp)
-mercredi 21/05|[Travaux pratiques 3/4](tp)
-mercredi 04/06|[Travaux pratiques 4/4](tp/tp4)
+mercredi 29/04|
+mercredi 29/04|
+mercredi 06/05|
 
 #### TD 2
 
 date|sujet
 ---|---
-mercredi 07/05|[cours](#cours) ; installation de Flutter ;  presentation de [Dart](/dart)
-samedi 10/05| Programmation asynchrone ; présentation de Flutter; Widget [stateless/statefull](state) ; ListView
-mercredi 14/05|[Travaux pratiques 1/4](tp)
-mercredi 21/05|[Travaux pratiques 2/4](tp)
-samedi 24/05|[Travaux pratiques 3/4](tp)
-mercredi 04/06|[Travaux pratiques 4/4](tp/tp4)
+mercredi 29/04|
+mercredi 29/04|
+mercredi 06/05|
+
+#### TP 1
+
+date|sujet
+---|---
+mercredi 06/05|
+mercredi 13/05|
+mercredi 20/05|x2
+vendredi 29/05|x2
+samedi 30/05|
+vendredi 05/06|x2
+
+#### TP 2
+
+date|sujet
+---|---
+mercredi 06/05|
+mercredi 13/05|
+samedi 23/05|x2
+mercredi 27/05|x2
+mercredi 03/06|
+samedi 06/06|x2
+
+#### TP 3
+
+date|sujet
+---|---
+mercredi 13/05|
+mercredi 13/05|
+mercredi 20/05|x2
+mercredi 27/05|x2
+mercredi 03/06|
+vendredi 05/06|x2
+
+### SAÉ
+
+date|sujet
+---|---
+samedi 30/05|TP1
+mercredi 03/06|TP2
+mercredi 03/06|TP3
+mercredi 10/06|TP1
+mercredi 10/06|TP2
+mercredi 10/06|TP3
+mercredi 10/06|TD1
+mercredi 10/06|TD2
+
+
 
 [tp1]: progressive-web-app/travaux-pratiques
 [tp2]: applications-hybrides/travaux-pratiques
