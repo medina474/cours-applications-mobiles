@@ -13,9 +13,9 @@
 ### Compétences ciblées :
 
 - **Développer** : c’est-à-dire concevoir, coder, tester et intégrer — une solution informatique pour un client.
-- Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision, consommation de ressources...
-- Concevoir, gérer, administrer et exploiter les données de l’entreprise et mettre à disposition toutes les informations pour un bon pilotage de l’entreprise
-- Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles
+- **Proposer** des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision, consommation de ressources...
+- **Concevoir**, gérer, administrer et exploiter les données de l’entreprise et mettre à disposition toutes les informations pour un bon pilotage de l’entreprise
+- **Satisfaire** les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles
 
 ### SAÉ au sein desquelles la ressource peut être mobilisée et combinée :
 
