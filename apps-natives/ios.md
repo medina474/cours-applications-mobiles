@@ -44,14 +44,13 @@ Objective C et Swift sont des langages exclusivement utilisé par Apple pour ses
 }
 
 -(void)runTest {
-  [self testMethod:^(NSInterger guessTheNumber) {
-    BOOL guessedRight = NO;
-    if( guessTheNumber == 3) {
-      guessedRight = YES;
-    }
-    return guessedRight;
-  }];
-}
+  [self testMethod:^(NSInterger guessTheNumber)]
+  BOOL guessedRight = NO;
+  if( guessTheNumber == 3) {
+    guessedRight = YES;
+  }
+  return guessedRight;
+};
 ```
 
 #### Une exemple en Swift
