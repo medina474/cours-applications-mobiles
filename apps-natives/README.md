@@ -13,9 +13,9 @@ Il est donc nécessaire de concevoir et développer l’application **autant de 
 
 Matériel|plateforme
 ---|---
+![Windows](windows.png)|[Windows](windows.md)
 ![iOS](ios.webp)|[iOS](ios.md)
 ![Android](android.png)|[Android](android.md)
-![Windows](windows.png)|[Windows](windows.md)
 
 ### Définitions
 
