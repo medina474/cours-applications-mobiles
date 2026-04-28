@@ -1,9 +1,5 @@
-+++
-title = "Dart"
-+++
-
->Dart est un langage de programmation conçu par **Google** en 2011. Il est surtout connu pour son rôle dans le développement d'applications mobiles multiplateformes grâce au framework applicatif **Flutter**.
-{class=definition}
+> [!NOTE]
+> Dart est un langage de programmation conçu par **Google** en 2011. Il est surtout connu pour son rôle dans le développement d'applications mobiles multiplateformes grâce au framework applicatif **Flutter**.
 
 Initialement, Dart visait à offrir une **alternative à JavaScript**, jugé trop permissif et difficile à maintenir, pour le développement d'applications web de grande envergure.
 
@@ -44,12 +40,12 @@ void main() {
 }
 ```
 
-- [Variables](variables)
-  - [Records](records)
-  - [Collections](collections)
-- [Iteration](iteration)
-- [Contrôle de flux](flux)
-- [Fonctions](fonctions)
-- [Classes et objets](class)
-- [Importation de bibliothèques](package)
-- [Programmation asynchrone](asynchrone)
+- [Variables](variables.md)
+  - [Records](records.md)
+  - [Collections](collections.md)
+- [Iteration](iteration.md)
+- [Contrôle de flux](flux.md)
+- [Fonctions](fonctions.md)
+- [Classes et objets](class.md)
+- [Importation de bibliothèques](package.md)
+- [Programmation asynchrone](asynchrone.md)
