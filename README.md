@@ -34,6 +34,7 @@ TP : 21h : 18h + 3h (saé)
 
 ### Cours
 
+- [Historique](apps-natives/historique.md)
 - [Applications natives](apps-natives)
 - [Compilation cross plateforme](apps-xplatform)
 - [Applications hybrides](apps-hybrides)
