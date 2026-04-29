@@ -1,6 +1,4 @@
-+++
-title = "Programmation asynchrone"
-+++
+# Programmation asynchrone
 
 > La programmation asynchrone permet d’exécuter des tâches **non bloquantes**, c’est-à-dire de lancer une opération (comme une requête réseau ou une lecture de fichier) sans arrêter l'exécution du reste du programme en attendant que cette opération se termine.
 

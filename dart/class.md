@@ -1,6 +1,4 @@
-+++
-title = "Classes"
-+++
+# Classes
 
 Une classe est un modèle (ou plan) pour créer des objets.
 Elle définit des propriétés (attributs) et des comportements (méthodes).

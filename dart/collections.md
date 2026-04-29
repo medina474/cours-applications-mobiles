@@ -1,6 +1,4 @@
-+++
-title = "Collections"
-+++
+# Collections
 
 ## Listes
 

@@ -1,6 +1,4 @@
-+++
-title = "Importation de bibliothèques"
-+++
+# Importation de bibliothèques
 
 En Dart, l'importation de bibliothèques (ou "packages") permet de réutiliser du code défini ailleurs, que ce soit dans le SDK de Dart lui même, dans des bibliothèques tierces, ou dans vos propres fichiers.
 

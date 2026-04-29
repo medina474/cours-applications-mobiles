@@ -1,6 +1,4 @@
-+++
-title = "Fonctions"
-+++
+# Fonctions
 
 Dart est un véritable langage orienté objet ; même les fonctions sont des objets et possèdent un type, Function. Cela signifie que les fonctions peuvent être assignées à des variables ou passées en arguments à d'autres fonctions. Vous pouvez également appeler une instance d'une classe Dart comme s'il s'agissait d'une fonction.
 
