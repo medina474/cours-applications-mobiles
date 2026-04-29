@@ -1,6 +1,4 @@
-+++
-title = "Widgets Stateless / Stateful"
-+++
+# Widgets Stateless / Stateful
 
 ## Stateless Widget
 

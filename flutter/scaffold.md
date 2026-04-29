@@ -1,6 +1,4 @@
-+++
-title = "Scaffold"
-+++
+# Scaffold
 
 La classe Scaffold (échafaudage) est un widget extensible qui remplit tout l'espace disponible ou l'écran. Il fournit des propriétés pour afficher les widgets utiles à une application tels que AppBar, Drawer, SnackBar, Bottom-Sheet, FloatingActionButton et BottomNavigationBar.
 

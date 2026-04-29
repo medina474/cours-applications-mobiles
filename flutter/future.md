@@ -1,6 +1,4 @@
----
-title: Future
----
+# Future
 
 Le widget Future
 

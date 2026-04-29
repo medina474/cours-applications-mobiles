@@ -1,6 +1,4 @@
----
-title: Layout
----
+# Layout
 
 > Les widgets sont des classes utilisées pour créer des interfaces utilisateur.
 Les widgets sont utilisés à la fois pour les éléments de mise en page et d'interface utilisateur.

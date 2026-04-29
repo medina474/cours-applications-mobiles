@@ -1,6 +1,4 @@
-+++
-title = "Installation"
-+++
+# Installation
 
 Installer le [plugin Flutter pour VSCode](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter).
 

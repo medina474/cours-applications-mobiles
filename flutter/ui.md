@@ -1,6 +1,4 @@
----
-title: "UI"
----
+# UI
 
 ## Commencez par penser de manière déclarative
 

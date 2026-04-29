@@ -1,9 +1,8 @@
-+++
-title = "Travaux pratiques"
-+++
+# Travaux pratiques
 
+> [!NOTE]
 > Concevoir une application sur le cinema avec **Flutter**
-{class=objectif}
+
 
 Une première maquette de l'application a été faite en HTML. Voici les différents écrans :
 

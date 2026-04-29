@@ -1,6 +1,4 @@
-+++
-title = "Navigation"
-+++
+# Navigation
 
 La navigation dans une application Flutter fait référence au mécanisme permettant de passer d’un écran (ou "page") à un autre. En Flutter, les écrans sont représentés par des widgets, souvent des StatelessWidget ou StatefulWidget, qu'on appelle dans ce contexte des routes.
 
