@@ -42,8 +42,8 @@ TP : 21h : 18h + 3h (saé)
 
 ### Travaux dirigés
 
-- Installation de [Flutter](flutter/installation)
-- Découverte du langage [Dart](/dart/)
+- Installation de [Flutter](flutter/installation.md)
+- Découverte du langage [Dart](/dart)
 - Découverte du cadriciel applicatif [Flutter](flutter)
 
 <!--
