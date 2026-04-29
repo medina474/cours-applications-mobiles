@@ -67,6 +67,11 @@ Widget build(BuildContext context) {
 Ici, la couleur est entièrement déterminée par l’état du système (user, isDarkMode).
 Elle est définie à un seul endroit, et tout changement d’état entraînera une reconstruction cohérente de l’interface.
 
+Programmation déclarative :
+- L’interface est décrite comme une fonction de l’état UI = f(state).
+- L'arbre de widgets est reconstruit à chaque changement d’état.
+- Le moteur du framework s’occupe de la différence et du rendu.
+
 ## Installation de Flutter
 
 [installation](installation)
