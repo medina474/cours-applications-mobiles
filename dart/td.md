@@ -1,6 +1,6 @@
 # Travaux dirigés 1
 
-## Consommer un service web
+## Consommation d’une API REST et modélisation en Dart
 
 On souhaite développer une application Flutter qui affiche une liste d’acteurs récupérée depuis le service web suivant :
 
@@ -25,23 +25,6 @@ Ce service retourne un JSON de la forme :
 ]
 ```
 
-# TD Flutter – Consommation d’une API REST et modélisation en Dart
-
-## Objectifs
-
-À l’issue de ce TD, vous serez capables de :
-
-* Consommer un service web REST en Flutter
-* Manipuler du JSON en Dart
-* Concevoir une classe métier (`Acteur`)
-* Comprendre et utiliser :
-
-  * les **constructeurs avec paramètres nommés**
-  * les **paramètres optionnels**
-  * les **constructeurs factory**
-* Afficher des données dans une interface Flutter (`ListView`)
-
-
 ## Partie 1 – Création de la classe `Acteur`
 
 ### Question 1
@@ -59,12 +42,13 @@ Identifier les types des champs suivants :
 
 Créer une classe Dart `Acteur` avec :
 
-* des attributs typés correspondant au JSON
+* des attributs **typés** correspondant au JSON
 * en utilisant les conventions Dart (`camelCase`)
 
-Exemple attendu :
+***camelCase***
+Convention de nommage dans laquelle les mots composant une phrase ou une expression sont fusionnés en un seul terme sans espaces, et chaque mot débute par une majuscule à l'exception du premier.
 
-* `personne_id` → `personneId`
+exemple `personne_id` devient `personneId`
 
 ### Question 3 – Constructeur
 
@@ -93,9 +77,7 @@ Adapter votre classe pour gérer ce cas.
 
 ## Partie 2 – Du JSON vers l’objet
 
-Problème Le JSON reçu est une `Map<String, dynamic>`.
-
-Comment transformer cela en objet `Acteur` ?
+Problème Le JSON reçu est une `Map<String, dynamic>`. Comment transformer cela en objet `Acteur` ?
 
 ### Question 5 – Méthode de conversion
 
@@ -105,7 +87,6 @@ Deux approches sont possibles :
 
 * constructeur classique
 * ou **constructeur factory**
-
 
 ### Rappel : constructeur factory
 
@@ -133,7 +114,7 @@ Implémenter :
 factory Acteur.fromJson(Map<String, dynamic> json)
 ```
 
-* convertir la date (`String` → `DateTime`)
+* convertir la date (`String` en `DateTime`)
 * gérer les `null`
 * gérer les `double`
 
