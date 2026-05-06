@@ -1,6 +1,4 @@
-+++
-title = "Variables"
-+++
+# Variables
 
 Les variables sont des **références** vers des objets. La déclaration se fait avec ou sans typage.
 

@@ -29,14 +29,16 @@ Ce service retourne un JSON de la forme :
 
 ### Question 1
 
-Identifier les types des champs suivants :
+Identifier les types des champs de la structure JSON :
 
-* `personne_id`
-* `nom`
-* `naissance`
-* `age`
-* `deces`
-* `popularite`
+clé JSON | type
+---|---
+`personne_id` |int
+`nom`         |String
+`naissance`   | DateTime
+`age`|
+`deces`|
+`popularite`|
 
 ### Question 2
 
@@ -45,10 +47,10 @@ Créer une classe Dart `Acteur` avec :
 * des attributs **typés** correspondant au JSON
 * en utilisant les conventions Dart (`camelCase`)
 
-***camelCase***
-Convention de nommage dans laquelle les mots composant une phrase ou une expression sont fusionnés en un seul terme sans espaces, et chaque mot débute par une majuscule à l'exception du premier.
+> [!INFO]
+> ***camelCase*** : Convention de nommage dans laquelle les mots composant une phrase ou une expression sont fusionnés en un seul terme sans espaces, et chaque mot débute par une majuscule à l'exception du premier.
 
-exemple `personne_id` devient `personneId`
+exemple `personne_id` devient `personneId`.
 
 ### Question 3 – Constructeur
 
@@ -172,3 +174,8 @@ Afficher chaque acteur dans un `ListTile` avec :
 * âge
 * nombre de films
 * drapeau
+
+
+## Les films
+
+https://api.neotech.fr/equipes?personne_id=eq.31&select=alias,films(film_id,titre)
