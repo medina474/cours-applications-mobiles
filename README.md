@@ -63,7 +63,7 @@ date|sujet
 ---|---
 mercredi 29/04|cours
 mercredi 29/04|TD installation et découverte de Flutter
-mercredi 06/05|
+mercredi 06/05|[Travaux dirigés 1](dart/td.md)
 
 #### TD 2
 
@@ -71,7 +71,7 @@ date|sujet
 ---|---
 mercredi 29/04|cours
 mercredi 29/04|TD installation et découverte de Flutter
-mercredi 06/05|
+mercredi 06/05|[Travaux dirigés 1](dart/td.md)
 
 #### TP 1
 

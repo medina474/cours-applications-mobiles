@@ -27,7 +27,7 @@ Ce service retourne un JSON de la forme :
 
 # TD Flutter – Consommation d’une API REST et modélisation en Dart
 
-## 🎯 Objectifs
+## Objectifs
 
 À l’issue de ce TD, vous serez capables de :
 
@@ -125,8 +125,6 @@ factory Acteur.fromJson(Map<String, dynamic> json) {
 }
 ```
 
----
-
 ### Question 6
 
 Implémenter :
@@ -147,8 +145,6 @@ factory Acteur.fromJson(Map<String, dynamic> json)
 
 Ajouter la dépendance HTTP au projet Flutter.
 
----
-
 ### Question 8
 
 Créer une fonction :
@@ -168,6 +164,8 @@ Cette fonction doit :
 final List data = json.decode(response.body);
 ```
 
+---
+
 # Partie 4 – Interface Flutter
 
 ### Question 9
@@ -177,8 +175,6 @@ Créer un `StatefulWidget` qui :
 * appelle `fetchActeurs()` dans `initState`
 * stocke le résultat dans un `Future`
 
----
-
 ### Question 10
 
 Utiliser un `FutureBuilder` pour :
@@ -186,8 +182,6 @@ Utiliser un `FutureBuilder` pour :
 * afficher un loader pendant le chargement
 * afficher une erreur si nécessaire
 * afficher la liste des acteurs
-
----
 
 ### Question 11
 
