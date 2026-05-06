@@ -45,6 +45,7 @@ TP : 21h : 18h + 3h (saé)
 - Installation de [Flutter](flutter/installation.md)
 - Découverte du langage [Dart](/dart)
 - Découverte du cadriciel applicatif [Flutter](flutter)
+- [Travaux dirigés 1](dart/td.md)
 
 <!--
 - Mise en place d'un environnement de distribution des données ([voir](td/index.html))
@@ -60,16 +61,16 @@ TP : 21h : 18h + 3h (saé)
 
 date|sujet
 ---|---
-mercredi 29/04|
-mercredi 29/04|
+mercredi 29/04|cours
+mercredi 29/04|TD installation et découverte de Flutter
 mercredi 06/05|
 
 #### TD 2
 
 date|sujet
 ---|---
-mercredi 29/04|
-mercredi 29/04|
+mercredi 29/04|cours
+mercredi 29/04|TD installation et découverte de Flutter
 mercredi 06/05|
 
 #### TP 1

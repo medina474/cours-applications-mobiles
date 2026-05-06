@@ -59,7 +59,7 @@ Map<String, String> gifts;
 Map<int, String>  nobleGases;
 ```
 
-Attention le literal vide `{}` correspond à une Map et non pas à un Set. Les deux utilisent l'accolade. Comme il n'y a rien à l'intérieur le compilateur ne peut pas savoir si il doit contenier des paires de clés/valeurs ou des valeurs seules.
+Attention le literal vide `{}` correspond à une Map et non pas à un Set. Les deux utilisent l'accolade. Comme il n'y a rien à l'intérieur le compilateur ne peut pas savoir si il doit contenir des paires de clés/valeurs ou des valeurs seules.
 
 ### Spread operator
 

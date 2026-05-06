@@ -1,8 +1,7 @@
-+++
-title = "records"
-+++
+# Enregistrements
 
-Les enregistrements sont un type d'agrégat anonyme et immuable. Comme les autres types de collections, ils permettent de regrouper plusieurs objets en un seul. Contrairement aux autres types de collections, les enregistrements sont de taille fixe, hétérogènes et typés.
+
+Les ***records*** sont un type d'agrégat anonyme et **immuable**. Comme les autres types de collections, ils permettent de regrouper plusieurs objets en un seul. Contrairement aux autres types de collections, les enregistrements sont de taille fixe, hétérogènes et typés.
 
 Les enregistrements sont des valeurs réelles ; vous pouvez les stocker dans des variables, les imbriquer, les transmettre à et depuis des fonctions, et les stocker dans des structures de données telles que des listes, des maps et des ensembles (set).
 

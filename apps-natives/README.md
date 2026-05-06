@@ -11,11 +11,11 @@ Les langages de développement des différentes plateformes sont eux aussi très
 
 Il est donc nécessaire de concevoir et développer l’application **autant de fois** que de plateformes pour lesquelles ont veut distribuer l'application. Et les développeurs maîtrisent en général l’un ou l’autre de ces environnements.
 
-Matériel|plateforme
+Matériel|plateforme|matériel
 ---|---
-![Windows](windows.png)|[Windows](windows.md)
-![iOS](ios.webp)|[iOS](ios.md)
-![Android](android.png)|[Android](android.md)
+![Windows](windows.png)|[Windows](windows.md)|tablette
+![iOS](ios.webp)|[iOS](ios.md)|iPhone, iPad
+![Android](android.png)|[Android](android.md)|smartphone, TV
 
 ### Définitions
 

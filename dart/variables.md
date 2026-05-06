@@ -56,11 +56,11 @@ String unAsString = 1.toString();
 String pi = 3.14159.toStringAsFixed(2);
 ```
 
-## Chaines de caractères
+## Chaines de caractères
 
 Une chaîne Dart (objet `String`) contient une séquence de caractères UTF-16. Vous pouvez utiliser des guillemets simples `'` ou doubles `"` pour créer une chaîne litérale.
 
-### interpolation de chaine
+### Interpolation de chaine
 
 Vous pouvez insérer la valeur d'une expression dans une chaîne en utilisant `${expression}`. Si l'expression est un identifiant simple, vous pouvez ignorer les accolades. Pour obtenir la chaîne correspondant à un objet, Dart appelle la méthode `toString()` de l'objet.
 

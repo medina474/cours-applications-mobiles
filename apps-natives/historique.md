@@ -56,7 +56,6 @@ Sa décision la plus marquante est l’abandon progressif de Symbian et du proje
 
 Finalement, cette stratégie conduit à la vente de la division mobile de Nokia à Microsoft en 2013. Le rôle de Stephen Elop est donc controversé : pour certains, il a tenté une transformation nécessaire dans un contexte très difficile ; pour d’autres, il a accéléré le déclin de Nokia en abandonnant trop vite ses propres technologies.
 
-
 ## Palm
 
 Développé par Palm, Palm OS (également connu sous le nom de **Garnet OS**) était l'un des premiers systèmes d'exploitation mobiles conçus pour les assistants numériques personnels (PDA) avant de passer aux premiers smartphones. Il était léger, convivial et avait un écosystème solide d'applications. Des appareils comme le Palm Pilot, le Palm Treo et le Handspring Visor étaient très populaires parmi les professionnels. Cependant, Palm OS a eu du mal avec le manque de multitâches, l'interface utilisateur obsolète et l'évolution limitée du matériel. En 2009, Palm a abandonné Palm OS en faveur de **WebOS**, mais à ce moment-là, iOS et Android avaient déjà pris le relais.
@@ -69,7 +68,7 @@ Aujourd’hui, les restes de WebOS se retrouvent dans les téléviseurs intellig
 
 ## Samsung
 
-Samsung a longtemps cherché à réduire sa dépendance à Android en développant ses propres systèmes : d’abord **Bada** (2010), un OS mobile propriétaire finalement abandonné faute d’écosystème, puis **Tizen**, conçu comme une plateforme plus ouverte et orientée web (HTML5) issue en partie de MeeGo ; si Tizen n’a jamais percé sur smartphone, Samsung l’a recyclé avec succès dans d’autres segments (montres connectées, téléviseurs, IoT), illustrant une stratégie pragmatique consistant à tester des alternatives à Android tout en les repositionnant selon les opportunités de marché.
+Samsung a longtemps cherché à réduire sa dépendance à Android en développant ses propres systèmes : d’abord **Bada** en 2010, un OS mobile propriétaire finalement abandonné faute d’écosystème, puis **Tizen**, conçu comme une plateforme plus ouverte et orientée web (HTML5) issue en partie de MeeGo ; si Tizen n’a jamais percé sur smartphone, Samsung l’a recyclé avec succès dans d’autres segments (montres connectées, téléviseurs, IoT), illustrant une stratégie pragmatique consistant à tester des alternatives à Android tout en les repositionnant selon les opportunités de marché.
 
 
 ## Les constructeurs chinois
@@ -77,3 +76,27 @@ Samsung a longtemps cherché à réduire sa dépendance à Android en développa
 Plusieurs constructeurs chinois ont cherché à s’émanciper d’Android ou à le contrôler davantage via des forks et surcouches : Xiaomi avec MIUI, Oppo (ColorOS) ou Vivo (Funtouch OS / OriginOS) restent techniquement basés sur Android mais construisent leurs propres écosystèmes (stores, services cloud, API), afin de maîtriser l’expérience utilisateur et la distribution applicative. D’autres tentatives plus radicales ont existé, comme YunOS d’Alibaba Group, orienté cloud, mais sans adoption durable hors de niches.
 
 Le cas de Huawei est plus structurant : après les restrictions américaines de 2019 limitant l’accès aux services Google, le groupe a accéléré le développement de **HarmonyOS** (Hongmeng), un OS distribué visant à unifier smartphones, IoT et autres appareils, avec un écosystème propre (HMS). Bien que les premières versions reposaient encore partiellement sur Android (AOSP), Huawei cherche progressivement à s’en détacher techniquement et stratégiquement, en bâtissant une alternative complète — illustrant une volonté d’indépendance technologique bien plus poussée que celle de ses concurrents chinois.
+
+## IVI (In-Vehicle Infotainment OS)
+
+MB.OS (Mercedes), VW.OS, BMW OS, Android Automotive, Arene (Toyota), Tesla OS
+
+## Résumé
+
+OS | Fabricant | Période | Langage
+---|---|---|---|
+[EPOC](https://en.wikipedia.org/wiki/EPOC_(operating_system))       | Psion (UK) | 1989 - 2000 | OPL OVAL
+[Symbian OS](https://en.wikipedia.org/wiki/Symbian)                 | Psion Nokia Ericsson Motorola | 1998 - 2012 | C++
+[BlackBerry OS](https://en.wikipedia.org/wiki/BlackBerry_OS)        | RIM | 1999 - 2013 |
+[Bada](https://en.wikipedia.org/wiki/Bada_(operating_system))       | Samsung    | 2010 - 2014 | C++
+[Maemo](https://en.wikipedia.org/wiki/Maemo)                        | Nokia | 2005 - 2011 | C++
+[Meego](https://en.wikipedia.org/wiki/MeeGo)                        | Nokia | 2010 - 2012 |
+[Tizen](https://en.wikipedia.org/wiki/Tizen)                        | Samsung | 2012 - |
+[Palm OS](https://en.wikipedia.org/wiki/Palm_OS)                    | Palm | 1996 - 2009 |
+[WebOS](https://en.wikipedia.org/wiki/WebOS)                        | Palm, HP, LG | 2009 - |
+[Windows Mobile](https://en.wikipedia.org/wiki/Windows_Mobile)      | Microsoft | 2000 - 2010 |
+[Windows Phone](https://en.wikipedia.org/wiki/Windows_Phone)        | Microsoft | 2010 - 2015 |
+[Windows 10 Mobile](https://en.wikipedia.org/wiki/Windows_10_Mobile) | Microsoft | 2015 - 2020 |
+[Windows 11](https://en.wikipedia.org/wiki/Windows_11)              | Microsoft | 2021 -  |
+[Firefox OS](https://en.wikipedia.org/wiki/Firefox_OS)              | Mozilla | 2013 - 2015
+[HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS)                | Huawei  | 2019 - 

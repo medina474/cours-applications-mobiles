@@ -19,14 +19,14 @@ Comme Dart visait à remplacer javascript au sein des navigateurs, il a été po
 
 Pour la documentation et en savoir plus : https://dart.dev/
 
-transpiler
-:  Un transpiler est un outil logiciel qui convertit du code source écrit dans un langage de programmation en code source dans un autre langage de programmation. Contrairement à un compilateur, qui traduit généralement du code source en code machine exécutable, un transpiler transforme le code d'un langage de haut niveau à un autre langage de haut niveau.
+***transpiler***  
+Un transpiler est un outil logiciel qui convertit du code source écrit dans un langage de programmation en code source dans un autre langage de programmation. Contrairement à un compilateur, qui traduit généralement du code source en code machine exécutable, un transpiler transforme le code d'un langage de haut niveau à un autre langage de haut niveau.
 
-JIT
-:  La compilation **Just-In-Time** est une technique utilisée par certains environnements d'exécution pour convertir du code source ou du bytecode en code machine exécutable au moment de l'exécution, plutôt qu'avant l'exécution.
+***JIT***  
+La compilation **Just-In-Time** est une technique utilisée par certains environnements d'exécution pour convertir du code source ou du bytecode en code machine exécutable au moment de l'exécution, plutôt qu'avant l'exécution.
 
-AOT
-:  La compilation **Ahead-Of-Time** est une technique de compilation où le code source est traduit en code machine exécutable avant son exécution. La compilation AOT se fait généralement lors de la phase de construction de l'application.
+***AOT***  
+La compilation **Ahead-Of-Time** est une technique de compilation où le code source est traduit en code machine exécutable avant son exécution. La compilation AOT se fait généralement lors de la phase de construction de l'application.
 
 ## Présentation du langage
 
