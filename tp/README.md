@@ -6,19 +6,24 @@
 
 Une première maquette de l'application a été faite en HTML. Voici les différents écrans :
 
-Accueil
+## Accueil
+
 ![Accueil](01.png "w-40")
 
-Liste des acteurs
+## Liste des acteurs
+
 ![Acteurs](03.png "w-40")
 
-Liste des films pour un acteur
+## Liste des films pour un acteur
+
 ![Films](04.png "w-40")
 
-Détail d'un film
+## Détail d'un film
+
 ![Détail](05.png "w-40")
 
-Carte des établissements
+## Carte des établissements
+
 ![Carte](02.png "w-40")
 
 Les différents éléments graphiques du projet.
@@ -49,7 +54,7 @@ Mettre en place une [navigation](../flutter/navigation) vers l'écran de la list
 Cette liste n'a pas à interragir avec l'utilisateur.
 
 ```
-GET http://localhost:3000/equipes?personne_id=eq.3&role=eq.acteur&select=alias,role,films(film_id, titre, annee, duree, genres(*),votes(*))
+GET http://api.neotech.fr/equipes?personne_id=eq.3&role=eq.acteur&select=alias,role,films(film_id, titre, annee, duree, genres(*),votes(*))
 ```
 
 ### Étape 3 / 4

@@ -35,10 +35,14 @@ clé JSON | type
 ---|---
 `personne_id` |int
 `nom`         |String
-`naissance`   | DateTime
-`age`|
-`deces`|
-`popularite`|
+`metaphone`   |String
+`naissance`   |DateTime
+`age`         |int
+`deces`       |DateTime
+`nationalite` |String
+`drapeau_unicode` |String
+`nb_film`     |int
+`popularite`  |double
 
 ### Question 2
 
@@ -178,4 +182,4 @@ Afficher chaque acteur dans un `ListTile` avec :
 
 ## Les films
 
-https://api.neotech.fr/equipes?personne_id=eq.31&select=alias,films(film_id,titre)
+https://api.neotech.fr/equipes?personne_id=eq.31&select=alias,films(*),personne(*)
