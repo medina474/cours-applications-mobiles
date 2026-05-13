@@ -44,6 +44,9 @@ Utiliser pour l'avatar un sytème de fallback vers une ressource locale à l'app
 
 Dans un premier temps l'utilisateur n'a pas à interragir avec la liste des acteurs. Utiliser un Widget Stateless et un `FuturBuilder` pour construire la liste.
 
+### Photo de l'acteur
+
+https://img.neotech.fr/cgi/images/tr:quality=100/cinema%2fprofiles%2f***id***.jpg
 
 ## Étape RP 2 / 4
 
