@@ -78,7 +78,7 @@ mercredi 06/05|[Travaux dirigés 1](dart/td.md)
 date|sujet
 ---|---
 mercredi 06/05|
-mercredi 13/05|
+mercredi 13/05|[TP](tp)
 mercredi 20/05|x2
 vendredi 29/05|x2
 samedi 30/05|
@@ -89,7 +89,7 @@ vendredi 05/06|x2
 date|sujet
 ---|---
 mercredi 06/05|
-mercredi 13/05|
+mercredi 13/05|[TP](tp)
 samedi 23/05|x2
 mercredi 27/05|x2
 mercredi 03/06|
@@ -100,7 +100,7 @@ samedi 06/06|x2
 date|sujet
 ---|---
 mercredi 13/05|
-mercredi 13/05|
+mercredi 13/05|[TP](tp)
 mercredi 20/05|x2
 mercredi 27/05|x2
 mercredi 03/06|
