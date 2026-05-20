@@ -12,19 +12,19 @@ Une première maquette de l'application a été faite en HTML. Voici les différ
 
 ## Liste des acteurs
 
-![Acteurs](03.png "w-20")
+<img src="03.png" width="300">
 
 ## Liste des films pour un acteur
 
-![Films](04.png "w-20")
+<img src="04.png" width="300">
 
 ## Détail d'un film
 
-![Détail](05.png "w-20")
+<img src="05.png" width="300">
 
 ## Carte des établissements
 
-![Carte](02.png "w-20")
+<img src="02.png" width="300">
 
 Les différents éléments graphiques du projet.
 
