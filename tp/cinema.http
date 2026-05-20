@@ -8,3 +8,9 @@ POST https://api.neotech.fr/rpc/etablissements_in_view
 Content-Type: application/json
 
 { "min_lat": 1, "min_long": 2, "max_lat": 4, "max_long": 5 }
+
+###
+https://api.neotech.fr/equipes?personne_id=eq.3&role=eq.acteur&select=alias,role,films(film_id, titre, annee, duree, genres(*),votes(*))
+
+###
+https://api.neotech.fr/films?film_id=eq.3&role=11eq.acteur&select=alias,role,films(film_id, titre, annee, duree, genres(*),votes(*))

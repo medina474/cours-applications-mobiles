@@ -36,6 +36,8 @@ Les différents éléments graphiques du projet.
 
 ![Icone 2](cinema-512.png "w-10") Icone 2
 
+<a href="cinema.svg">Icone SVG</a>
+
 ## Étape TP 1 / 4
 
 En partant de l'exercice de TD. Concevoir d'abord la liste des acteurs.
@@ -55,7 +57,7 @@ Mettre en place une [navigation](../flutter/navigation) vers l'écran de la list
 Cette liste n'a pas à interragir avec l'utilisateur.
 
 ```
-GET http://api.neotech.fr/equipes?personne_id=eq.3&role=eq.acteur&select=alias,role,films(film_id, titre, annee, duree, genres(*),votes(*))
+https://api.neotech.fr/equipes?personne_id=eq.3&role=eq.acteur&select=alias,role,films(film_id, titre, annee, duree, genres(*),votes(*))
 ```
 
 Affiche du film :
@@ -68,6 +70,8 @@ https://img.neotech.fr/cgi/images/tr:quality=100/cinema%2fposters%2f***id***.jpg
 Mettre en place une navigation pour aller au détail du film
 
 Ajouter un widget pour afficher le score sous forme d'étoiles remplies en partie.
+
+
 
 ### Étape 4 / 5
 
