@@ -8,7 +8,7 @@ Une première maquette de l'application a été faite en HTML. Voici les différ
 
 ## Accueil
 
-![Accueil](01.png "w-40")
+![Accueil](01.png){:height="200px" width="36px"}
 
 ## Liste des acteurs
 
