@@ -1,0 +1,10 @@
+POST https://api.neotech.fr/rpc/films_par_acteur
+Content-Type: application/json
+
+{ "id": 12 }
+
+###
+POST https://api.neotech.fr/rpc/etablissements_in_view
+Content-Type: application/json
+
+{ "min_lat": 1, "min_long": 2, "max_lat": 4, "max_long": 5 }

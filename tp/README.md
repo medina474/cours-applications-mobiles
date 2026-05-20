@@ -12,19 +12,19 @@ Une première maquette de l'application a été faite en HTML. Voici les différ
 
 ## Liste des acteurs
 
-![Acteurs](03.png "w-40")
+![Acteurs](03.png "w-20")
 
 ## Liste des films pour un acteur
 
-![Films](04.png "w-40")
+![Films](04.png "w-20")
 
 ## Détail d'un film
 
-![Détail](05.png "w-40")
+![Détail](05.png "w-20")
 
 ## Carte des établissements
 
-![Carte](02.png "w-40")
+![Carte](02.png "w-20")
 
 Les différents éléments graphiques du projet.
 
@@ -48,7 +48,7 @@ Dans un premier temps l'utilisateur n'a pas à interragir avec la liste des acte
 
 https://img.neotech.fr/cgi/images/tr:quality=100/cinema%2fprofiles%2f***id***.jpg
 
-## Étape RP 2 / 4
+## Étape 2 / 5
 
 Mettre en place une [navigation](../flutter/navigation) vers l'écran de la liste des films.
 
@@ -58,11 +58,24 @@ Cette liste n'a pas à interragir avec l'utilisateur.
 GET http://api.neotech.fr/equipes?personne_id=eq.3&role=eq.acteur&select=alias,role,films(film_id, titre, annee, duree, genres(*),votes(*))
 ```
 
-### Étape 3 / 4
+Affiche du film :
+
+https://img.neotech.fr/cgi/images/tr:quality=100/cinema%2fposters%2f***id***.jpg
+
+
+### Étape 3 / 5
+
+Mettre en place une navigation pour aller au détail du film
+
+Ajouter un widget pour afficher le score sous forme d'étoiles remplies en partie.
+
+### Étape 4 / 5
+
+Mettre en place une carte des établissements autour de votre position
 
 [carte](carte)
 
-### Étape 4 /4
+### Étape 5 /5
 
 Mettre en place une [navigation](../flutter/navigation) à l'aide d'une BottomNavigationBar.
 
