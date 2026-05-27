@@ -2,10 +2,7 @@
 
 > Créer une page contenant une carte avec des marqueurs pour localiser les établissements. Ajouter un menu tabbar pour naviguer entre la carte et la liste des acteurs.
 
-Dans le fichier _pubspec.yaml_ ajouter les dépendances aux packages _flutter_map_ et _latlong2_
-
-Utiliser les paquets `flutter_map` et `latlong2`
-
+Dans le fichier _pubspec.yaml_ ajouter les dépendances aux packages `flutter_map` et `latlong2`.
 
 ### Fonction pour determiner la position de l'utilisateur
 
@@ -18,12 +15,13 @@ Tester l'application avec l'emulateur Android. Vérifier que les permissions son
 
 POST https://api.neotech.fr/rpc/etablissements_in_view
 
+Type de la requête
+
 Content-Type: application/json
 
 Corps de la requête POST
 
 { "min_lat": 47.5, "min_long": 6.5, "max_lat": 48.5, "max_long": 7.5 }
-
 
 - Convertir la liste des établissements en liste de markers
 - Écouter les mouvements de la carte (zoom/déplacement) avec onPositionChanged
@@ -38,17 +36,6 @@ Un Debouncer (ou antirebond en français) est un mécanisme permettant de contr�
 - Chaque fois que l’événement se déclenche, le debouncer annule le précédent appel planifié.
 - Il reprogramme l’appel à la fonction dans 300 ms.
 - Si aucun nouvel événement ne survient dans ce délai, la fonction est finalement exécutée.
-
-```dart
-Timer? _debounce;
-
-void onMapMoved(LatLngBounds bounds) {
-  _debounce?.cancel();
-  _debounce = Timer(Duration(milliseconds: 300), () {
-    poiService.getEtablissements(bounds);
-  });
-}
-```
 
 ### Annulation de requête
 
