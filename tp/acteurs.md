@@ -1,5 +1,4 @@
-# Travaux pratiques 1/4"
-+++
+# Travaux pratiques 1/4
 
 ## Application
 
@@ -45,7 +44,7 @@ MaterialApp apporte aussi un système de navigation, de localisation (traduction
 ## Web service clients
 
 ```
-http://api.neotech.fr/acteurs
+https://api.neotech.fr/acteurs
 ```
 
 ### Classe modèle de données
