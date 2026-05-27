@@ -138,7 +138,7 @@ L'expression switch suit la logique de programmation déclarative.
 
 Pour définir une clause de protection facultative après une clause case, utilisez le mot-clé `when`. Une clause de protection peut suivre une clause if case, ainsi que des instructions et expressions switch.
 
-when agit comme un filtre supplémentaire après le pattern principal. Cela permet d’éviter des if imbriqués ou des cas dupliqués.
+`when` agit comme un filtre supplémentaire après le pattern principal. Cela permet d’éviter des if imbriqués ou des cas dupliqués.
 
 ```dart
 String getAccessLevel(User user) => switch (user.role) {

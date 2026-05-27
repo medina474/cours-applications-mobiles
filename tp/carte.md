@@ -1,128 +1,35 @@
 # TP Cartographie
 
 > Créer une page contenant une carte avec des marqueurs pour localiser les établissements. Ajouter un menu tabbar pour naviguer entre la carte et la liste des acteurs.
-{class=objectif}
 
 Dans le fichier _pubspec.yaml_ ajouter les dépendances aux packages _flutter_map_ et _latlong2_
 
-_pubspec.yaml_
-```yml
-  flutter_map: ^8.1.1
-  latlong2: ^0.9.1
-```
+Utiliser les paquets `flutter_map` et `latlong2`
 
-### Attributs d'état du widget
-
-```dart
-final MapController _mapController = MapController();
-LatLng? _userLocation;
-cList<Marker> _markers = [];
-```
 
 ### Fonction pour determiner la position de l'utilisateur
 
-```dart
-Future<void> _determinePosition() async {
-  bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
-  if (!serviceEnabled) return;
+Utiliser une fonction pour déterminer la position de l'utilisateur. 
 
-  LocationPermission permission = await Geolocator.checkPermission();
-  if (permission == LocationPermission.denied) {
-    permission = await Geolocator.requestPermission();
-    if (permission == LocationPermission.denied) return;
-  }
+Tester l'application avec l'emulateur Android. Vérifier que les permissions sont correctement définies.
 
-  if (permission == LocationPermission.deniedForever) return;
-
-  final position = await Geolocator.getCurrentPosition();
-  final userLatLng = LatLng(position.latitude, position.longitude);
-
-  setState(() {
-    _userLocation = userLatLng;
-  });
-
-  _mapController.move(userLatLng, 14);
-}
-```
 
 ### Récupérer via la Web service la liste des établissements dans une région donnée
 
-```dart
-Future<List<Feature>> getEtablissements(LatLngBounds bounds) async {
-  final url =
-      'http://localhost:3002/geojson/etablissements?bbox=${bounds.northWest.longitude},${bounds.northWest.latitude},${bounds.southEast.longitude},${bounds.southEast.latitude}';
-  final response = await http.get(Uri.parse(url));
-  final Map<String, dynamic> geojson = jsonDecode(response.body);
-  return geojson["features"].map((e) => Feature.fromJson(e)).toList();
-}
-```
+POST https://api.neotech.fr/rpc/etablissements_in_view
 
-### Convertir la liste des établissements en liste de markers
+Content-Type: application/json
 
-```dart
-    Future<void> _getMarkers() async {
-      final bounds = _mapController.camera.visibleBounds;
-      final etablissements = await getEtablissements(bounds);
+Corps de la requête POST
 
-      final markers =
-          etablissements
-              .map<Marker>(
-                (e) => Marker(
-                  point: LatLng(
-                    e.geometry.coordinates[1],
-                    e.geometry.coordinates[0],
-                  ),
-                  child: Icon(
-                    Icons.location_on,
-                    color: Colors.deepPurple,
-                    size: 40,
-                  ),
-                ),
-              )
-              .toList();
+{ "min_lat": 47.5, "min_long": 6.5, "max_lat": 48.5, "max_long": 7.5 }
 
-      if (mounted) {
-        setState(() {
-          _markers = markers;
-        });
-      }
-    }
-```
 
+- Convertir la liste des établissements en liste de markers
 - Écouter les mouvements de la carte (zoom/déplacement) avec onPositionChanged
 - Récupérer les limites visibles (MapCamera.visibleBounds).
 - Appeler service.fetch(bounds) avec ces limites.
 - Afficher les markers correspondants.
-
-```dart
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("Carte")),
-      body: FlutterMap(
-        mapController: _mapController,
-        options: MapOptions(
-          initialCenter:
-              _userLocation ?? LatLng(45.75, 4.85), // Centre de votre région
-          initialZoom: 13,
-          onMapReady: _getMarkers,
-          onPositionChanged: (position, hasGesture) {
-            _getMarkers();
-          },
-        ),
-        children: [
-          TileLayer(
-            urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-            subdomains: ['a', 'b', 'c'],
-            userAgentPackageName: 'com.example.cinema_app',
-          ),
-          MarkerLayer(markers: _markers),
-        ],
-      ),
-    );
-  }
-}
-```
 
 ### Debouncer
 
@@ -145,20 +52,11 @@ void onMapMoved(LatLngBounds bounds) {
 
 ### Annulation de requête
 
-Utiliser le package _dio_ plus complet que le simple _http_
+Utiliser le package _dio_ plus complet que le simple _http_ qui permet l'annulation des requêtes
 
 ### Groupe de marquers
 
-```yml
-flutter_map_marker_cluster: ^1.4.0
-```
+ajouter le paquet `flutter_map_marker_cluster`
 
-> N'est pas compatible avec la dernière version de flutter_map. Les joies des packages tiers.
-{class=danger}
-
-- service.fetch() est déclenché sans await, donc l'exécution continue immédiatement après (le setState() et l'affichage de la carte ne sont pas bloqués).
-- Le téléchargement des tuiles commence tout de suite.
-- Une fois les données du service récupérées, on peut facultativement mettre à jour l’interface via setState() si on veut afficher les établissements (ex. des Marker).
-- Ajouter une couche de type MarkerLayer.
 - Rendre les marqueurs cliquables (GestureDetector).
 - Afficher les infos dans un showDialog(), un BottomSheet, ou un widget flottant.

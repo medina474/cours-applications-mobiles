@@ -51,7 +51,7 @@ Créer une classe Dart `Acteur` avec :
 * des attributs **typés** correspondant au JSON
 * en utilisant les conventions Dart (`camelCase`)
 
-> [!INFO]
+>[!INFO]
 > ***camelCase*** : Convention de nommage dans laquelle les mots composant une phrase ou une expression sont fusionnés en un seul terme sans espaces, et chaque mot débute par une majuscule à l'exception du premier.
 
 exemple `personne_id` devient `personneId`.
