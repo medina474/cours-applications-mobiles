@@ -6,7 +6,7 @@
 
 ![psion](psion.webp)
 
-EPOC introduit plusieurs concepts importants pour l’époque : un système multitâche préemptif, une exécution depuis la mémoire ROM (pour économiser les ressources) et la possibilité pour les utilisateurs de développer leurs propres applications via un langage simple proche du BASIC (OPL _Open Programming Language_). La version 32 bits marque une évolution majeure avec une architecture orientée objet en C++, une évolution du langage BASIC compatible avec Microsoft Visual Basic (OVAL _Object-based Visual Application Language_) un support des processeurs ARM (une autre entreprise britannique) et une volonté d’ouvrir la plateforme à d’autres constructeurs.
+EPOC introduit plusieurs concepts importants pour l’époque : un système multitâche préemptif, une exécution depuis la mémoire ROM (pour économiser les ressources) et la possibilité pour les utilisateurs de développer leurs propres applications via un langage simple proche du BASIC (OPL _Open Programming Language_). La version 32 bits marque une évolution majeure avec une architecture orientée objet en C++, une évolution du langage OPL vers OVAL (OVAL _Object-based Visual Application Language_) compatible avec Microsoft Visual Basic,  un support des processeurs ARM (une autre entreprise britannique) et une volonté d’ouvrir la plateforme à d’autres constructeurs.
 
 [Plaquette commerciale Psion Workabout](workabout.pdf)
 

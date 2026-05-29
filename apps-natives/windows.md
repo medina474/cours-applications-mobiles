@@ -21,3 +21,7 @@ Cet ensemble contrairement à son successeur Microsoft .Net Framework est libre 
 Smartphones industriels identiques à la gamme Android, sauf pour les produits grand public. Les tablettes de grands formats sont bien souvent des tablettes Windows identiques à des PC portables (sans clavier bien sûr).
 
 ![Pocket PC](pocketpc.jpg)
+
+![Tablette](windows_tablette.webp)
+
+![Windows 11 Pro](windows_11_pro.webp)
