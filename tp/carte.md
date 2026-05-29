@@ -45,6 +45,11 @@ Utiliser le paquet `geolocator` pour déterminer la position de l'utilisateur.
 - Tester l'application avec l'émulateur Android. 
 - Vérifier que les permissions sont correctement définies dans le fichier `AndroidManifest.xml`.
 
+```xml
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+```
+
 ### Récupérer via la Web service la liste des établissements dans une région donnée
 
 propriété|valeur
@@ -54,7 +59,7 @@ url      | https://api.neotech.fr/rpc/etablissements_in_view
 Content-Type| application/json
 body     | { "min_lat": 47.5, "min_long": 6.5, "max_lat": 48.5, "max_long": 7.5 }
 
-- Utiliser l'extension Rest Client de VSCode pour visualiser le retour du web service
+- Utiliser l'extension [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) de VSCode pour visualiser le retour du web service
 - Convertir la liste des établissements en liste de markers
 - Écouter les mouvements de la carte (zoom/déplacement) avec `onPositionChanged`
 - Récupérer les limites visibles (`MapCamera.visibleBounds`).
@@ -68,6 +73,26 @@ body     | { "min_lat": 47.5, "min_long": 6.5, "max_lat": 48.5, "max_long": 7.5 
 - Chaque fois que l’événement se déclenche, le debouncer annule le précédent appel planifié.
 - Il reprogramme l’appel à la fonction dans 300 ms.
 - Si aucun nouvel événement ne survient dans ce délai, la fonction est finalement exécutée.
+
+```dart
+import 'dart:async';
+
+class Debouncer {
+  Debouncer({required this.delay});
+
+  final Duration delay;
+  Timer? _timer;
+
+  void run(void Function() action) {
+    _timer?.cancel();
+    _timer = Timer(delay, action);
+  }
+
+  void dispose() {
+    _timer?.cancel();
+  }
+}
+```
 
 ### Annulation de requête
 
