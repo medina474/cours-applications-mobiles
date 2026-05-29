@@ -167,12 +167,12 @@ Le widget Text en Flutter sert à afficher une chaîne de caractères (du texte)
 
 ## Concepts
 
-[Les états](state.md)
-[La navigation](navigation.md)
+- [Les états](state.md)
+- [La navigation](navigation.md)
 
-[introduction](introduction.md)
-[composants](composants.md)
-[ui](ui.md)
-[future](future.md)
-[carte](carte.md)
-[barcode](barcode.md)
+- [introduction](introduction.md)
+- [composants](composants.md)
+- [ui](ui.md)
+- [future](future.md)
+- [carte](carte.md)
+- [barcode](barcode.md)
