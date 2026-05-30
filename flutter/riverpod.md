@@ -25,8 +25,15 @@ Riverpod permet de séparer clairement :
 - La logique métier : Ce que l’application fait
 - Les dépendances : Ce dont l’application a besoin
 
+### 1 — Mise en place de Riverpod
 
-Modifier `main.dart` pour ajouter le conteneur global de Riverpod
+Ajouter la dépendance :
+
+```yaml
+flutter_riverpod:
+```
+
+Modifier le point d’entrée de l’application afin d’utiliser Riverpod.
 
 ```dart
 void main() {
@@ -136,3 +143,31 @@ class ActeurView extends ConsumerWidget {
   }
 }
 ```
+
+## NotifierProvider
+
+Il permet de notifier des changement d'état.
+
+Changer ActeurProvider en  AsyncNotifierProvider
+
+```dart
+final acteurProvider = AsyncNotifierProvider<ActeurNotifier, List<Acteur>>(
+  ActeurNotifier.new,
+);
+```
+
+Ajouter la classe `ActeurNotifier`.
+
+```dart
+class ActeurNotifier extends AsyncNotifier<List<Acteur>> {
+
+  @override
+  Future<List<Acteur>> build() async {
+    final repo = ref.read(acteurRepositoryProvider);
+
+    final acteurs = await repo.getActeurs();
+    return acteurs;
+  }
+}
+```
+

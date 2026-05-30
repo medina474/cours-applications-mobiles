@@ -82,15 +82,7 @@ lib/
 ```
 
 
-# Partie 1 — Mise en place de Riverpod
 
-Ajouter la dépendance :
-
-```yaml
-flutter_riverpod:
-```
-
-Modifier le point d’entrée de l’application afin d’utiliser Riverpod.
 
 
 ---
