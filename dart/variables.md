@@ -21,7 +21,7 @@ Il est préférable d’annoter explicitement, surtout dans des API ou des fonct
 
 Dart supporte les types suivant :
 
-## Nombres
+### Nombres
 
 Il y a deux types de nombres, les deux représenté parsur 64 bits, les entiers `int` et les flottants `double`.
 
@@ -43,7 +43,7 @@ if (y is double) print ('y est un double') else print ('y est un int');
 print(0.2 + 0.1);
 ```
 
-### Conversion
+#### Conversion
 
 ```dart
 // String -> int
@@ -54,15 +54,15 @@ String unAsString = 1.toString();
 String pi = 3.14159.toStringAsFixed(2);
 ```
 
-## Chaines de caractères
+### Chaines de caractères
 
 Une chaîne Dart (objet `String`) contient une séquence de caractères UTF-16. Vous pouvez utiliser des guillemets simples `'` ou doubles `"` pour créer une chaîne litérale.
 
-### Interpolation de chaine
+#### Interpolation de chaine
 
 Vous pouvez insérer la valeur d'une expression dans une chaîne en utilisant `${expression}`. Si l'expression est un identifiant simple, vous pouvez ignorer les accolades. Pour obtenir la chaîne correspondant à un objet, Dart appelle la méthode `toString()` de l'objet.
 
-### Multiligne
+#### Multiligne
 
 Pour créer une chaîne multiligne, utilisez trois guillemets. (des simples ou des doubles)
 
@@ -71,7 +71,7 @@ Plusieurs lignes
 de texte.
 ''';
 
-### Chaines brutes
+#### Chaines brutes
 
 Vous pouvez créer une chaîne « brute » en la préfixant avec r. Les caractères habituels d'échappement ne sont plus échapés.
 
@@ -127,7 +127,7 @@ x = 42;
 print(x.length); // Erreur d'exécution : int n’a pas de length
 ```
 
-#### Constantes
+### Constantes
 
 En Dart, les mots-clés `final` et `const` servent tous deux à déclarer des valeurs immuables (en: immutable), mais ils ont des différences importantes en termes de moment d’évaluation et de comportement.
 
@@ -160,7 +160,7 @@ nom = 'Albert';
 print(nom.length); // La variable a été initialisée avant.
 ```
 
-Suivant le contexte l'affectation n'est pas toujours garantie, un type nullable indique que la vriable peut ne pas être initialisée.
+Suivant le contexte l'affectation n'est pas toujours garantie, un type nullable indique que la variable peut ne pas être initialisée.
 
 ```dart
 String? nom;
@@ -187,6 +187,30 @@ print(nom!.length); // La variable n'a peut être pas été initialisée avant. 
 
 Si on s'est trompé est que la variable est nulle alors le programme plante !
 
+
+#### Opérateurs prenant en compte la nullité
+
+Dart propose plusieurs opérateurs pratiques pour manipuler des valeurs qui peuvent être null.
+
+L’un d’eux est l’opérateur d’affectation ??=. Il assigne une valeur à une variable uniquement si cette variable vaut actuellement null.
+
+```dart
+a ??= 3;
+```
+
+Un autre opérateur de ce type est ??. Il renvoie l’expression située à sa gauche, sauf si la valeur de cette expression est null. Dans ce cas, il évalue et renvoie l’expression située à sa droite.
+
+```dart
+age ?? 99;
+```
+
+#### Accès conditionnelle à la propriété 
+
+Pour garder l'accès à une propriété ou à une méthode d'un objet qui pourrait être nul, mettez un point d'interrogation (?) avant le point (.)
+
+### Cascades
+
+Grâce aux cascades, vous pouvez enchaîner plusieurs opérations qui nécessiteraient autrement des instructions séparées.
 
 inférence
 : L’inférence (ou inférence de type) en Dart est la capacité du compilateur à déterminer automatiquement le type d’une variable ou d’une expression, sans qu’il soit nécessaire de le préciser explicitement. L'inférence fonctionne au moment de la compilation, pas à l'exécution. Le type ne peut pas changer ensuite.
