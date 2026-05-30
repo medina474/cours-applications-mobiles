@@ -79,9 +79,9 @@ date|sujet
 ---|---
 mercredi 06/05|
 mercredi 13/05|[TP](tp)
-mercredi 20/05|x2
+mercredi 20/05|Navigation x2
 vendredi 29/05|[Carte](tp/carte.md) x2
-samedi 30/05|
+samedi 30/05  |[Gestion d'état et injection de dépendances](flutter/riverpod.md)
 vendredi 05/06|x2
 
 #### TP 2
@@ -90,10 +90,10 @@ date|sujet
 ---|---
 mercredi 06/05|
 mercredi 13/05|[TP](tp)
-samedi 23/05|x2
+samedi 23/05  |Navigation x2
 mercredi 27/05|[TP Carte](tp/carte.md) x2
 mercredi 03/06|
-samedi 06/06|x2
+samedi 06/06  |x2
 
 #### TP 3
 
@@ -101,7 +101,7 @@ date|sujet
 ---|---
 mercredi 13/05|
 mercredi 13/05|[TP](tp)
-mercredi 20/05|x2
+mercredi 20/05| Navigation x2
 mercredi 27/05|[Carte](tp/carte.md) x2
 mercredi 03/06|
 vendredi 05/06|x2
@@ -110,7 +110,7 @@ vendredi 05/06|x2
 
 date|sujet
 ---|---
-samedi 30/05|TP1
+samedi 30/05  |TP1
 mercredi 03/06|TP2
 mercredi 03/06|TP3
 mercredi 10/06|TP1
