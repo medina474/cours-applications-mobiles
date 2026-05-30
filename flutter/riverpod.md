@@ -156,7 +156,7 @@ final acteurProvider = AsyncNotifierProvider<ActeurNotifier, List<Acteur>>(
 );
 ```
 
-Ajouter la classe `ActeurNotifier`.
+Ajouter la classe `ActeurNotifier`. La méthode build est la méthode d'initialisation.
 
 ```dart
 class ActeurNotifier extends AsyncNotifier<List<Acteur>> {
@@ -171,3 +171,70 @@ class ActeurNotifier extends AsyncNotifier<List<Acteur>> {
 }
 ```
 
+Mettre en place la pagination sur le repository et le service Acteur.
+
+Modifier la classe ActeurNotifier pour stocker l'état de la page.
+
+```dart
+  int _page = 1;
+  bool _hasReachedEnd = false;
+  bool _isLoadingMore = false;
+
+  @override
+  Future<List<Acteur>> build() async {
+    final repo = ref.read(acteurRepositoryProvider);
+
+    final acteurs = await repo.getActeurs(page: 1);
+
+    _page = 1;
+    _hasReachedEnd = acteurs.isEmpty;
+
+    return acteurs;
+  }
+```
+
+Ajouter une fonction permettant de modifier l'état c'est à dire de passer d'une page à l'autre
+
+```dart
+Future<void> loadMore() async {
+    if (_hasReachedEnd || _isLoadingMore) return;
+
+    _isLoadingMore = true;
+
+    final repo = ref.read(acteurRepositoryProvider);
+
+    final nextPage = _page + 1;
+
+    try {
+      final newActeurs = await repo.getActeurs(page: nextPage);
+
+      final current = state.value ?? [];
+
+      state = AsyncData([
+        ...current,
+        ...newActeurs,
+      ]);
+
+      _page = nextPage;
+      _hasReachedEnd = newActeurs.isEmpty;
+    } catch (e, st) {
+      state = AsyncError(e, st);
+    } finally {
+      _isLoadingMore = false;
+    }
+  }
+```
+
+Finalement ajouter un inspecteur sur le scroll de la page et appeler la fonction loadMore du Notifier
+
+```dart
+NotificationListener<ScrollNotification>(
+        onNotification: (scrollInfo) {
+          if (scrollInfo.metrics.pixels >=
+              scrollInfo.metrics.maxScrollExtent - 200) {
+            ref.read(acteurProvider.notifier).loadMore();
+          }
+          return false;
+        },
+        child: acteursAsync.when(
+```
