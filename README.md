@@ -81,7 +81,7 @@ mercredi 06/05|
 mercredi 13/05|[TP](tp)
 mercredi 20/05|Navigation x2
 vendredi 29/05|[Carte](tp/carte.md) x2
-samedi 30/05  |[Gestion d'état et injection de dépendances](flutter/riverpod.md)
+samedi 30/05  |Page d'accueil + Composants
 vendredi 05/06|x2
 
 #### TP 2
@@ -92,7 +92,7 @@ mercredi 06/05|
 mercredi 13/05|[TP](tp)
 samedi 23/05  |Navigation x2
 mercredi 27/05|[TP Carte](tp/carte.md) x2
-mercredi 03/06|
+mercredi 03/06|Composants
 samedi 06/06  |x2
 
 #### TP 3
@@ -103,23 +103,21 @@ mercredi 13/05|
 mercredi 13/05|[TP](tp)
 mercredi 20/05| Navigation x2
 mercredi 27/05|[Carte](tp/carte.md) x2
-mercredi 03/06|
+mercredi 03/06|Composants
 vendredi 05/06|x2
 
 ### SAÉ
 
 date|sujet
 ---|---
-samedi 30/05  |TP1
-mercredi 03/06|TP2
-mercredi 03/06|TP3
+samedi   30/05|TP1
 mercredi 10/06|TP1
+mercredi 03/06|TP2
 mercredi 10/06|TP2
+mercredi 03/06|TP3
 mercredi 10/06|TP3
 mercredi 10/06|TD1
 mercredi 10/06|TD2
-
-
 
 [tp1]: progressive-web-app/travaux-pratiques
 [tp2]: applications-hybrides/travaux-pratiques

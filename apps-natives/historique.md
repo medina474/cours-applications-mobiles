@@ -2,9 +2,14 @@
 
 ## Psion
 
-À la fin des années 80 la société britannique **Psion**  développe **EPOC**, un système d’exploitation pour OS mobile. Il est l’un des premiers systèmes d’exploitation pensés spécifiquement pour les appareils mobiles et plus spécifiquement pour les assistants personnels (PDA). Il fonctionne d’abord en version 16 bits (EPOC16), puis évolue vers une version 32 bits (EPOC32), plus moderne.
+À la fin des années 80 la société britannique **Psion** développe **EPOC**, un système d’exploitation pour OS mobile. Il est l’un des premiers systèmes d’exploitation pensés spécifiquement pour les appareils mobiles et plus spécifiquement pour les assistants personnels (PDA). Il fonctionne d’abord en version 16 bits (EPOC16), puis évolue vers une version 32 bits (EPOC32), plus moderne.
 
-![psion](psion.webp)
+<figure>
+  <img
+    src="psion.webp"
+    alt="Psion Series 3" width="300"/>
+  <figcaption>Psion l'organiseur numérique des jeunes cadres dynamiques</figcaption>
+</figure>
 
 EPOC introduit plusieurs concepts importants pour l’époque : un système multitâche préemptif, une exécution depuis la mémoire ROM (pour économiser les ressources) et la possibilité pour les utilisateurs de développer leurs propres applications via un langage simple proche du BASIC (OPL _Open Programming Language_). La version 32 bits marque une évolution majeure avec une architecture orientée objet en C++, une évolution du langage OPL vers OVAL (OVAL _Object-based Visual Application Language_) compatible avec Microsoft Visual Basic,  un support des processeurs ARM (une autre entreprise britannique) et une volonté d’ouvrir la plateforme à d’autres constructeurs.
 
@@ -77,9 +82,65 @@ Plusieurs constructeurs chinois ont cherché à s’émanciper d’Android ou à
 
 Le cas de Huawei est plus structurant : après les restrictions américaines de 2019 limitant l’accès aux services Google, le groupe a accéléré le développement de **HarmonyOS** (Hongmeng), un OS distribué visant à unifier smartphones, IoT et autres appareils, avec un écosystème propre (HMS). Bien que les premières versions reposaient encore partiellement sur Android (AOSP), Huawei cherche progressivement à s’en détacher techniquement et stratégiquement, en bâtissant une alternative complète — illustrant une volonté d’indépendance technologique bien plus poussée que celle de ses concurrents chinois.
 
-## IVI (In-Vehicle Infotainment OS)
+## Téléviseurs
 
-MB.OS (Mercedes), VW.OS, BMW OS, Android Automotive, Arene (Toyota), Tesla OS
+Les téléviseurs ont connu une évolution comparable à celle des smartphones. Initialement limités à la réception des chaînes de télévision, ils sont devenus de véritables plateformes applicatives capables d'exécuter des services de streaming, des jeux, des assistants vocaux ou encore des applications domotiques.
+
+Durant les années 2010, le marché des téléviseurs connectés a été largement dominé par les constructeurs historiques tels que LG Electronics, Samsung Electronics, Sony et Panasonic.
+
+LG s'est particulièrement distingué grâce à sa maîtrise de la technologie OLED et au développement de son système d'exploitation propriétaire webOS. Initialement conçu pour les smartphones par Palm, webOS a été racheté puis adapté aux téléviseurs connectés. Son interface fluide, son catalogue d'applications et sa simplicité d'utilisation ont contribué au succès des téléviseurs LG dans le segment haut de gamme.
+
+Parallèlement, Samsung a développé son propre système d'exploitation, Tizen, afin de contrôler l'expérience utilisateur et de réduire sa dépendance à Android.
+
+L'essor des services de streaming a profondément transformé l'usage des téléviseurs. Les applications comme Netflix, YouTube, Disney+ ou Prime Video sont devenues des arguments commerciaux aussi importants que la qualité de l'écran.
+
+| Système                      | Développeur          | Constructeurs utilisateurs                                                        |
+| ---------------------------- | -------------------- | --------------------------------------------------------------------------------- |
+| webOS                        | LG Electronics       | LG, mais aussi certains modèles de Sharp, Konka, Blaupunkt, Eko, Seiki            |
+| Tizen                        | Samsung Electronics  | Principalement Samsung                                                            |
+| V (VIDAA)                        | Hisense              | Hisense, Toshiba (certains marchés), Loewe (certains modèles), Schneider, Gorenje |
+| Google TV                    | Google               | Sony, TCL, Philips, Panasonic, Sharp, Xiaomi, Thomson, Metz                       |
+| Android TV                   | Google               | Sony (anciens modèles), Philips, TCL, Xiaomi, Strong, Nokia, Thomson              |
+| Roku TV                      | Roku                 | TCL (Amérique du Nord), Sharp, Hisense (USA), RCA, JVC, Hitachi                   |
+| Fire TV                      | Amazon               | Amazon, Toshiba, Panasonic (certains marchés), Grundig                            |
+| Titan | TP Vision | Philips                     | Philips
+| Systèmes Linux propriétaires | Divers constructeurs | Vestel, Telefunken, Continental Edison, marques distributeurs                     |
+
+https://omdia.tech.informa.com/pr/2026/apr/vidaa-set-to-overtake-lgs-webos-in-europe-as-chinese-tv-brands-gain-ground
+
+### Set-top boxes
+
+- Apple TV
+- Android TV (Xiami Mi Box)
+- Amazon Fire TV
+- Nvidia shield
+
+## IVI
+
+L’IVI (In-Vehicle Infotainment) désigne l’ensemble des systèmes embarqués dans un véhicule permettant de fournir des services d’information, de divertissement, de communication et d’assistance à la conduite.
+
+Aujourd’hui, l’écran central d’une voiture moderne est devenu une véritable plateforme applicative comparable à une tablette ou à un smartphone.
+
+Les fonctions les plus courantes sont :
+
+- Navigation GPS
+- Lecture de musique (et de vidéos)
+- Téléphonie mains libres
+- Messagerie vocale
+- Gestion du véhicule
+- Assistance à la conduite
+
+L’IVI constitue aujourd’hui l’un des domaines les plus dynamiques des applications mobiles et embarquées. Né de la convergence entre automobile, informatique embarquée et smartphone, il évolue vers des véhicules entièrement pilotés par logiciel. Les compétences recherchées mêlent désormais développement mobile, systèmes embarqués, UX, cybersécurité et intelligence artificielle.
+
+- Apple CarPlay (2014)
+- Android Auto (2015)
+- MB.OS (Mercedes), 
+- VW.OS, 
+- BMW OS, 
+- Android Automotive, 
+- Arene (Toyota), 
+- Tesla OS
+- Mobitera, ex Panasonic Automotive Systems (Toyota)
 
 ## Résumé
 
