@@ -24,6 +24,12 @@ dependencies:
   http: ^1.3.0
 ```
 
-Le symbole `^` dans un fichier pubspec.yaml sert à spécifier une contrainte de version compatible, selon les règles de versionnage sémantique (semver). Il permet de dire : "j'accepte cette version et toutes les versions compatibles suivantes, tant qu’il n’y a pas de changement majeur".
+Le symbole `^` dans un fichier pubspec.yaml sert à spécifier une contrainte de version compatible, selon les règles de versionnage sémantique (SemVer). Il permet de dire : "j'accepte cette version et toutes les versions compatibles suivantes, tant qu’il n’y a pas de changement majeur".
 
-^1.2.3	signifie de prendre de télécharger la version comprise entre >=1.2.3 et <2.0.0
+^1.2.3 signifie  prendre la version comprise entre >=1.2.3 et <2.0.0
+
+Si la version majeure est 0 alors le symbole `^` s'applique sur le numéro de version mineur.
+
+^0.2.3 signifie prendre la version comprise entre >=0.2.3 et <0.3.0
+
+Gestion sémantique de version SemVer : https://semver.org/lang/fr/

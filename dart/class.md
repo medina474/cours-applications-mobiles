@@ -1,8 +1,7 @@
 # Classes
 
-> [!INFO]
-Une classe est un modèle (ou plan) pour créer des objets.
-Elle définit des propriétés (attributs) et des comportements (méthodes).
+> [!NOTE]
+> Une classe est un modèle (ou plan) pour créer des objets. Elle définit des propriétés (attributs) et des comportements (méthodes).
 
 ```dart
 class Personne {
@@ -33,7 +32,7 @@ void main() {
 
 ### Constructeur
 
-Un constructeur est une méthode qui permet d’instancier une classe avec des valeurs dès le départ. La méthode n'a pas de type de retour parce que c'est implicitement le type classe en question et elle est nommé identiquement à la classe.
+Un constructeur est une méthode qui permet d’instancier une classe avec des valeurs dès le départ. La méthode n'a pas de type de retour parce que c'est implicitement le type classe en question et elle est nommé **identiquement** à la classe.
 
 ```dart
 class Personne {
@@ -142,8 +141,8 @@ class Chien extends Animal {
 }
 ```
 
-annotation
-: Une annotation en Dart est un métadonnée qui précède une déclaration (classe, méthode, variable, etc.) et informe le compilateur ou certains outils qu’un comportement particulier est attendu.
+***annotation***  
+Une annotation en Dart est un métadonnée qui précède une déclaration (classe, méthode, variable, etc.) et informe le compilateur ou certains outils qu’un comportement particulier est attendu.
 
 ### La classe mère
 
@@ -167,7 +166,7 @@ class MonWidget extends StatelessWidget {
 
 ### Factory
 
-le mot-clé factory permet de définir un constructeur particulier, qui ne crée pas nécessairement une nouvelle instance chaque fois qu’il est appelé. À la différence d'un constructeur nommé, il peut retourner une instance existante ou différente.
+le mot-clé factory permet de définir un constructeur particulier, qui ne crée pas nécessairement une nouvelle instance chaque fois qu’il est appelé. À la différence d'un constructeur nommé, il peut retourner une instance existante, une nouvelle instance ou rien.
 
 C’est un mécanisme souple, utile pour :
 
@@ -213,14 +212,14 @@ print((valeur as String).length); // OK après un cast
 
 #### as/is
 
-L'opérateur as permet de faire un cast explicit.
+L'opérateur `as` permet de faire un cast explicit.
 
 ```dart
 num x = 10;
 int y = x as int; // Cast explicite
 ```
 
-L'opérateur is permet de tester le type d'une variable.
+L'opérateur `is` permet de tester le type d'une variable.
 
 ```dart
 if (valeur is String) {
