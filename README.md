@@ -44,6 +44,9 @@ TP : 21h : 18h + 3h (saé)
 
 - Installation de [Flutter](flutter/installation.md)
 - Découverte du langage [Dart](/dart)
+  - [Variables](variables.md)
+    - [Enregistrements](records.md)
+    - [Collections](collections.md)
 - Découverte du cadriciel applicatif [Flutter](flutter)
 - [Travaux dirigés 1](dart/td.md)
 

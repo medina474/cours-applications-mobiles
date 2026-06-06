@@ -3,15 +3,15 @@
 
 Initialement, Dart visait à offrir une **alternative à JavaScript**, jugé trop permissif et difficile à maintenir, pour le développement d'applications web de grande envergure.
 
-Dart a été créé pour surmonter certaines limitations de JavaScript, un langage déjà bien établi mais qui, selon les développeurs, ne pouvait plus évoluer pour résoudre certains problèmes.
+Dart a été créé pour surmonter certaines limitations de _JavaScript_, un langage déjà bien établi mais qui, selon les développeurs, ne pouvait plus évoluer pour résoudre certains problèmes.
 
 ### Caractéristiques de Dart :
 
-Syntaxe Familière : Si vous connaissez déjà des langages comme Java, C# ou JavaScript, vous trouverez la syntaxe de Dart familière.
+Syntaxe Familière : Si vous connaissez déjà des langages comme _Java_, _C#_ ou _JavaScript_, vous trouverez la syntaxe de Dart familière.
 
 Typage Statique et Dynamique : Dart supporte à la fois le typage statique (pour une meilleure performance et sécurité) et le typage dynamique (pour plus de flexibilité).
 
-Gestion de la Mémoire : Dart utilise un ramasse-miettes (garbage collector) pour la gestion automatique de la mémoire.
+Gestion de la Mémoire : Dart utilise un **ramasse-miettes** (_garbage collector_) pour la gestion automatique de la mémoire.
 
 Compilation AOT et JIT : Dart peut être compilé à l'avance (Ahead-Of-Time, AOT) pour des performances optimales, ou juste à temps (Just-In-Time, JIT) pour un développement rapide.
 
@@ -23,12 +23,13 @@ Pour la documentation et en savoir plus : https://dart.dev/
 Un transpiler est un outil logiciel qui convertit du code source écrit dans un langage de programmation en code source dans un autre langage de programmation. Contrairement à un compilateur, qui traduit généralement du code source en code machine exécutable, un transpiler transforme le code d'un langage de haut niveau à un autre langage de haut niveau.
 
 ***JIT***  
-La compilation **Just-In-Time** est une technique utilisée par certains environnements d'exécution pour convertir du code source ou du bytecode en code machine exécutable au moment de l'exécution, plutôt qu'avant l'exécution.
+La compilation **Just-In-Time** est une technique utilisée par certains environnements d'exécution pour convertir du code source ou du bytecode en code machine exécutable au moment de l'exécution, plutôt qu'avant l'exécution. L'instruction `flutter run` qui sert à lancer l'application en mode debogage utilise JIT.
 
 ***AOT***  
-La compilation **Ahead-Of-Time** est une technique de compilation où le code source est traduit en code machine exécutable avant son exécution. La compilation AOT se fait généralement lors de la phase de construction de l'application.
+La compilation **Ahead-Of-Time** est une technique de compilation où le code source est traduit en code machine exécutable avant son exécution. La compilation AOT se fait généralement lors de la phase de construction de l'application. L'instruction `flutter build --release` qui produit un package exécutable utilise AOT.
 
-## Présentation du langage
+***Ramasse-miettes***  
+Mécanisme automatique d'un environnement d'exécution qui libère la mémoire occupée par les objets qui ne sont plus utilisés par le programme. Il peut provoquer de courtes pauses dans l'exécution du programme.
 
 ### Fonction principale main()
 
@@ -40,9 +41,6 @@ void main() {
 }
 ```
 
-- [Variables](variables.md)
-  - [Records](records.md)
-  - [Collections](collections.md)
 - [Iteration](iteration.md)
 - [Branches](flux.md) `if` `if-case` `switch`
 - [Fonctions](fonctions.md)
