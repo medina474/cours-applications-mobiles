@@ -36,6 +36,9 @@ TP : 21h : 18h + 3h (saé)
 
 - [Historique du développement mobile](apps-natives/historique.md)
 - [Applications natives](apps-natives)
+  - [Windows](apps-natives/windows.md)
+  - [iOS](apps-natives/ios.md)
+  - [Android](apps-natives/android.md)
 - [Compilation cross plateforme](apps-xplatform)
 - [Applications hybrides](apps-hybrides)
 - [Progressive Web App](apps-pwa)
@@ -44,9 +47,16 @@ TP : 21h : 18h + 3h (saé)
 
 - Installation de [Flutter](flutter/installation.md)
 - Découverte du langage [Dart](/dart)
-  - [Variables](variables.md)
-    - [Enregistrements](records.md)
-    - [Collections](collections.md)
+  - [Variables](dart/variables.md)
+    - [Enregistrements](dart/records.md)
+    - [Collections](dart/collections.md) `List` `Set` `Map`
+  - [Branches](dart/branches.md) `if` `if-case` `switch`
+  - [Iteration](dart/iteration.md) `for` `while` `do-while`
+  - [Fonctions](dart/fonctions.md)
+  - [Classes et objets](dart/class.md)
+  - [Importation de bibliothèques](dart/package.md)
+  - [Programmation asynchrone](dart/asynchrone.md)
+  - [Gestion des erreurs](dart/erreurs.md)
 - Découverte du cadriciel applicatif [Flutter](flutter)
 - [Travaux dirigés 1](dart/td.md)
 

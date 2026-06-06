@@ -40,11 +40,3 @@ void main() {
   print('Bonjour, Dart !');
 }
 ```
-
-- [Iteration](iteration.md)
-- [Branches](flux.md) `if` `if-case` `switch`
-- [Fonctions](fonctions.md)
-- [Classes et objets](class.md)
-- [Importation de bibliothèques](package.md)
-- [Programmation asynchrone](asynchrone.md)
-- [Gestion des erreurs](erreurs.md)
