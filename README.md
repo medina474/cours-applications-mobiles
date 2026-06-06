@@ -53,10 +53,10 @@ TP : 21h : 18h + 3h (saé)
   - [Branches](dart/branches.md) `if` `if-case` `switch`
   - [Iteration](dart/iteration.md) `for` `while` `do-while`
   - [Fonctions](dart/fonctions.md)
-  - [Classes et objets](dart/class.md)
-  - [Importation de bibliothèques](dart/package.md)
-  - [Programmation asynchrone](dart/asynchrone.md)
-  - [Gestion des erreurs](dart/erreurs.md)
+  - [Classes et objets](dart/class.md) `as` `is`
+  - [Importation de bibliothèques](dart/package.md) `import`
+  - [Programmation asynchrone](dart/asynchrone.md) `Future` `async` `await` `then`
+  - [Gestion des erreurs](dart/erreurs.md) `try` `on` `catch`
 - Découverte du cadriciel applicatif [Flutter](flutter)
 - [Travaux dirigés 1](dart/td.md)
 
@@ -93,9 +93,9 @@ date|sujet
 mercredi 06/05|
 mercredi 13/05|[TP](tp)
 mercredi 20/05|Navigation x2
-vendredi 29/05|[Carte](tp5/) x2
+vendredi 29/05|[TP Carte](tp5/) x2
 samedi 30/05  |Page d'accueil + Composants
-vendredi 05/06|x2
+vendredi 05/06|Évaluation x2
 
 #### TP 2
 
@@ -105,8 +105,8 @@ mercredi 06/05|
 mercredi 13/05|[TP](tp)
 samedi 23/05  |Navigation x2
 mercredi 27/05|[TP Carte](tp5/) x2
-mercredi 03/06|Composants
-samedi 06/06  |x2
+mercredi 03/06|Page d'accueil + Composants
+samedi 06/06  |Évaluation x2
 
 #### TP 3
 
@@ -115,9 +115,9 @@ date|sujet
 mercredi 13/05|
 mercredi 13/05|[TP](tp)
 mercredi 20/05| Navigation x2
-mercredi 27/05|[Carte](tp5/) x2
-mercredi 03/06|Composants
-vendredi 05/06|x2
+mercredi 27/05|[TP Carte](tp5/) x2
+mercredi 03/06|Page d'accueil + Composants
+vendredi 05/06|Évaluation x2
 
 ### SAÉ
 

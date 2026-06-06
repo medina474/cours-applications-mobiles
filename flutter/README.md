@@ -1,6 +1,4 @@
----
-title: Flutter
----
+# Flutter
 
 Flutter est un **framework**, un ensemble d'outil pour développer des applications Web, Windows, Android et iOS à partir d'un socle commun.
 
