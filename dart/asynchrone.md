@@ -20,6 +20,31 @@ Le mot-clé `async` transforme une fonction pour qu'elle retourne un Future.
 
 Le mot-clé `await` suspend l’exécution jusqu’à ce que le Future soit résolu. Et c'est seulement lors de la résolution que la véritable valeur est lue.
 
+## Utilisation basique
+
+Vous pouvez utiliser `then()` pour planifier l’exécution de code lorsqu’un *Future* est terminé. Par exemple, `Client.read()` retourne un `Future`, car les requêtes HTTP peuvent prendre du temps. L’utilisation de `then()` vous permet d’exécuter du code lorsque ce `Future` est complété et que la valeur promise de type `String` est disponible.
+
+```dart
+httpClient.read(url).then((String result) {
+  print(result);
+});
+```
+
+Utilisez `catchError()` pour prendre en charge les erreurs.
+
+```dart
+httpClient
+    .read(url)
+    .then((String result) {
+      print(result);
+    })
+    .catchError((e) {
+      // Handle or ignore the error.
+    });
+```
+
+Le pattern `then().catchError()` est la version asynchrone de `try-catch`. 
+
 ## Exercice
 
 Ajouter le package http à votre projet.
