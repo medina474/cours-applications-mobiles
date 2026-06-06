@@ -44,8 +44,9 @@ void main() {
   - [Records](records.md)
   - [Collections](collections.md)
 - [Iteration](iteration.md)
-- [Contrôle de flux](flux.md)
+- [Branches](flux.md) `if` `if-case` `switch`
 - [Fonctions](fonctions.md)
 - [Classes et objets](class.md)
 - [Importation de bibliothèques](package.md)
 - [Programmation asynchrone](asynchrone.md)
+- [Gestion des erreurs](erreurs.md)

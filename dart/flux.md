@@ -1,6 +1,6 @@
-# Contrôle de flux
+# Branches
 
-## if
+## Intruction conditionnelle `if`
 
 Dart prend en charge les instructions « if » avec des clauses « else » facultatives. La condition entre parenthèses après « if » doit être une expression dont l'évaluation donne un booléen
 
@@ -35,15 +35,6 @@ if (data case {'user': [String name, int age]}) {
   print('User $name is $age years old.');
 }
 ```
-
-This case pattern simultaneously validates that:
-
-    json is a map, because it must first match the outer map pattern to proceed.
-        And, since it's a map, it also confirms json is not null.
-    json contains a key user.
-    The key user pairs with a list of two values.
-    The types of the list values are String and int.
-    The new local variables to hold the values are name and age.
 
 Les motifs sont une catégorie syntaxique du langage Dart, comme les instructions et les expressions. Un motif représente la forme d'un ensemble de valeurs qu'il peut comparer à des valeurs réelles.
 
@@ -112,16 +103,19 @@ var token;
 switch (charCode) {
   case slash || star || plus || minus: // Logical-or pattern
     token = operator(charCode);
+
   case comma || semicolon: // Logical-or pattern
     token = punctuation(charCode);
+  
   case >= digit0 && <= digit9: // Relational and logical-and patterns
     token = number();
+  
   default:
     throw FormatException('Invalid');
 }
 ```
 
-devient
+devient avec une expression switch
 
 ```dart
 var token = switch (charCode) {
@@ -132,7 +126,7 @@ var token = switch (charCode) {
 };
 ```
 
-L'expression switch suit la logique de programmation déclarative.
+L'expression switch suit la logique de **programmation déclarative**.
 
 ### Clause de protection
 
