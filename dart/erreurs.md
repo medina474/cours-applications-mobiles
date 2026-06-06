@@ -145,6 +145,6 @@ assert(
 
 The first argument to assert can be any expression that resolves to a boolean value. If the expression's value is true, the assertion succeeds and execution continues. If it's false, the assertion fails and an exception (an AssertionError) is thrown.
 
-Dans le code de production, les assertions sont ignorées et les arguments passés à assert() ne sont même pas évalués.
+Dans le code de production, les assertions sont ignorées et les arguments passés à `assert()` ne sont même pas évalués.
 
 Par conséquent, les assertions ne doivent jamais être utilisées pour exécuter une logique métier ou des validations indispensables au fonctionnement de l'application. Elles servent uniquement à détecter des erreurs de programmation pendant le développement.
