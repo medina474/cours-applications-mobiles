@@ -31,12 +31,16 @@ La compilation **Ahead-Of-Time** est une technique de compilation où le code so
 ***Ramasse-miettes***  
 Mécanisme automatique d'un environnement d'exécution qui libère la mémoire occupée par les objets qui ne sont plus utilisés par le programme. Il peut provoquer de courtes pauses dans l'exécution du programme.
 
-### Fonction principale main()
+## Fonction principale
 
-Chaque application Dart a pour point d'entée la fonction `main`.
+Chaque application Dart a pour point d'entée la fonction `main()`.
 
 ```dart
 void main() {
   print('Bonjour, Dart !');
 }
 ```
+
+## Bibliothèque
+
+Une bibliothèque (_library_) correspond essentiellement à un fichier Dart (.dart) et à l'ensemble des fichiers qu'il importe via part. C'est l'unité utilisée par le langage pour définir les frontières d'accès entre le code « interne » et le code « externe ».

@@ -22,6 +22,8 @@ Le mot-clé `await` suspend l’exécution jusqu’à ce que le Future soit rés
 
 ## Utilisation basique
 
+La méthode `then()` est utilisée avec les objets Future pour exécuter du code lorsqu'une opération asynchrone est terminée. Au lieu d'attendre explicitement le résultat avec le mot-clé `await`, `then()` permet d'enregistrer une fonction de rappel (callback) qui sera appelée dès que la valeur du Future sera disponible. Cette approche était largement utilisée avant l'introduction de la syntaxe async/await et reste utile pour chaîner plusieurs traitements asynchrones. Lorsque le Future se termine avec succès, la valeur produite est transmise à la fonction fournie à then(). En cas d'erreur, celle-ci peut être interceptée avec catchError(). Bien que async/await rende souvent le code plus lisible, then() demeure un mécanisme fondamental du modèle asynchrone de Dart et constitue la base sur laquelle repose la syntaxe moderne.
+
 Vous pouvez utiliser `then()` pour planifier l’exécution de code lorsqu’un *Future* est terminé. Par exemple, `Client.read()` retourne un `Future`, car les requêtes HTTP peuvent prendre du temps. L’utilisation de `then()` vous permet d’exécuter du code lorsque ce `Future` est complété et que la valeur promise de type `String` est disponible.
 
 ```dart

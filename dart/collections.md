@@ -22,11 +22,11 @@ Si la liste est vide et que l'on souhaite inférer.
 var liste = <int>[];
 ```
 
-Les listes utilisent une indexation de base zéro, où 0 est l'index de la première valeur et list.length - 1 celui de la dernière valeur. Vous pouvez obtenir la longueur d'une liste grâce à la propriété .length et accéder à ses valeurs grâce à l'opérateur d'indice ([]) :
+Les listes utilisent une indexation de base zéro, où 0 est l'index de la première valeur et list.length - 1 celui de la dernière valeur. Vous pouvez obtenir la longueur d'une liste grâce à la propriété `.length` et accéder à ses valeurs grâce à l'opérateur d'indice `[x]`.
 
 ## Sets
 
-Dans Dart, un ensemble est une collection non ordonnée d'éléments **uniques**. La prise en charge des ensembles par Dart est assurée par les littéraux d'ensemble et le type Set<E>.
+Un ensemble est une collection non ordonnée d'éléments **uniques**. La prise en charge des ensembles par Dart est assurée par les littéraux d'ensemble et le type `Set<E>`.
 
 ```dart
 var halogenes = {'fluor', 'chlore', 'brome', 'iode', 'astate'}; // inférence avec un litéral
@@ -40,7 +40,7 @@ Set<String> liste = {'fluor', 'chlore', 'brome', 'iode', 'astate'};
 
 ## Maps
 
-En général, une map est un objet associant des clés (K) et des valeurs (V). Ces clés et valeurs peuvent être de n'importe quel type d'objet. Chaque clé n'apparaît qu'une seule fois, mais la même valeur peut être utilisée plusieurs fois. La prise en charge des map par Dart est assurée par les littéraux de carte et le type Map<K, V>.
+En général, une map est un objet associant des clés (K) et des valeurs (V). Ces clés et valeurs peuvent être de n'importe quel type d'objet. Chaque clé n'apparaît qu'une seule fois, mais la même valeur peut être utilisée plusieurs fois. La prise en charge des map par Dart est assurée par les littéraux de carte et le type `Map<K, V>`.
 
 ```dart
 var gifts = {
@@ -63,7 +63,7 @@ Attention le literal vide `{}` correspond à une Map et non pas à un Set. Les d
 
 ### Spread operator
 
-Dart prend en charge l'opérateur de propagation (...) et l'opérateur de propagation sensible aux valeurs nulles (...?) dans les littéraux de liste, de carte et d'ensemble. Les opérateurs de propagation offrent un moyen concis d'insérer plusieurs valeurs dans une collection.
+Dart prend en charge l'opérateur de propagation `...` et l'opérateur de propagation sensible aux valeurs nulles `...?` dans les littéraux de liste, de carte et d'ensemble. Les opérateurs de propagation offrent un moyen concis d'insérer plusieurs valeurs dans une collection.
 
 Par exemple, vous pouvez utiliser l'opérateur de propagation (...) pour insérer toutes les valeurs d'une liste dans une autre liste :
 

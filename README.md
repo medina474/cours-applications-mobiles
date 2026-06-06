@@ -50,13 +50,14 @@ TP : 21h : 18h + 3h (saé)
   - [Variables](dart/variables.md)
     - [Enregistrements](dart/records.md)
     - [Collections](dart/collections.md) `List` `Set` `Map`
-  - [Branches](dart/branches.md) `if` `if-case` `switch`
-  - [Iteration](dart/iteration.md) `for` `while` `do-while`
+  - Contrôle de flux
+    - [Branches](dart/branches.md) `if` `if-case` `switch`
+    - [Iteration](dart/iteration.md) `for` `while` `do-while`
+    - [Gestion des erreurs](dart/erreurs.md) `try` `on` `catch`
   - [Fonctions](dart/fonctions.md)
   - [Classes et objets](dart/class.md) `as` `is`
   - [Importation de bibliothèques](dart/package.md) `import`
   - [Programmation asynchrone](dart/asynchrone.md) `Future` `async` `await` `then`
-  - [Gestion des erreurs](dart/erreurs.md) `try` `on` `catch`
 - Découverte du cadriciel applicatif [Flutter](flutter)
 - [Travaux dirigés 1](dart/td.md)
 
