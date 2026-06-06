@@ -52,12 +52,12 @@ Utiliser le paquet `geolocator` pour déterminer la position de l'utilisateur.
 
 ### Récupérer via la Web service la liste des établissements dans une région donnée
 
-propriété|valeur
----      |---
-méthode  | POST
-url      | https://api.neotech.fr/rpc/etablissements_in_view
+propriété   |valeur
+---         |---
+méthode     | POST
+url         | https://api.neotech.fr/rpc/etablissements_in_view
 Content-Type| application/json
-body     | { "min_lat": 47.5, "min_long": 6.5, "max_lat": 48.5, "max_long": 7.5 }
+body        | { "min_lat": 47.5, "min_long": 6.5, "max_lat": 48.5, "max_long": 7.5 }
 
 - Utiliser l'extension [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) de VSCode pour visualiser le retour du web service
 - Convertir la liste des établissements en liste de markers
@@ -94,10 +94,6 @@ class Debouncer {
 }
 ```
 
-### Annulation de requête
-
-Utiliser le package _dio_ plus complet que le simple _http_ qui permet l'annulation des requêtes
-
 ### Groupe de marquers
 
 ajouter le paquet `flutter_map_marker_cluster`
@@ -105,3 +101,11 @@ ajouter le paquet `flutter_map_marker_cluster`
 - Rendre les marqueurs cliquables (GestureDetector).
 - Afficher les infos dans un showDialog(), un BottomSheet, ou un widget flottant.
 
+--
+
+> [!NOTE]
+> Cette partie n'a pas été réalisée
+
+### Annulation de requête
+
+Utiliser le package _dio_ plus complet que le simple _http_ qui permet l'annulation des requêtes

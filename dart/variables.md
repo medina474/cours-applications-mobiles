@@ -212,17 +212,19 @@ Pour garder l'accès à une propriété ou à une méthode d'un objet qui pourra
 
 Grâce aux cascades, vous pouvez enchaîner plusieurs opérations qui nécessiteraient autrement des instructions séparées.
 
-inférence
-: L’inférence (ou inférence de type) en Dart est la capacité du compilateur à déterminer automatiquement le type d’une variable ou d’une expression, sans qu’il soit nécessaire de le préciser explicitement. L'inférence fonctionne au moment de la compilation, pas à l'exécution. Le type ne peut pas changer ensuite.
+### Définitions à connaître
 
-typage dynamique
-: Le typage dynamique signifie que le type d'une variable est déterminé à l’exécution, et peut changer au cours du programme.
+***inférence***  
+L’inférence (ou inférence de type) en Dart est la capacité du compilateur à déterminer automatiquement le type d’une variable ou d’une expression, sans qu’il soit nécessaire de le préciser explicitement. L'inférence fonctionne au moment de la compilation, pas à l'exécution. Le type ne peut pas changer ensuite.
 
-mutable
-: Un objet mutable permet de changer ses propriétés, ses éléments ou son contenu sans avoir à créer un nouvel objet.
+***typage dynamique***  
+Le typage dynamique signifie que le type d'une variable est déterminé à l’exécution, et peut changer au cours du programme.
 
-immutable
-: Un objet immutable est un objet dont l’état interne (valeurs, propriétés, contenu) ne peut jamais être changé une fois qu’il a été instancié.
+***mutable***  
+Un objet mutable permet de changer ses propriétés, ses éléments ou son contenu sans avoir à créer un nouvel objet.
 
-cast
-: Un cast (ou transformation de type) est une opération qui indique explicitement au compilateur qu’une valeur d’un type peut être considérée comme étant d’un autre type. C'est surtout utilisé en POO pour cibler un niveau précis dans une chaîne d'héritage de classes.
+***immutable***  
+Un objet immutable est un objet dont l’état interne (valeurs, propriétés, contenu) ne peut jamais être changé une fois qu’il a été instancié.
+
+***cast***  
+Un cast (ou transformation de type) est une opération qui indique explicitement au compilateur qu’une valeur d’un type peut être considérée comme étant d’un autre type. C'est surtout utilisé en POO pour cibler un niveau précis dans une chaîne d'héritage de classes.

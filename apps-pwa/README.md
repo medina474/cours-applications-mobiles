@@ -35,14 +35,13 @@ En respectant ces conditions, vous pouvez développer une PWA qui offre une exp�
 
 ## Frameworks
 
-[jQuery Mobile](jquerymobile)
+[jQuery Mobile](jquerymobile) (Obsolète)
 
-[Bootstrap](bootstrap)
+[Bootstrap](bootstrap) (Pour l'aspect Responsive Design seulement)
 
-[framework7](framework7)
+[OnsenUI](onsenui) (Simple et efficace mais assez peu d'évolutions depuis 2022)
 
-[OnsenUI](onsenui)
-
+[framework7](framework7) (Très, trop complet)
 
 ## Outils
 
